@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.nav-container{
+    width: 90vw;
+    /* height: auto; */
+    /* background-color: #c2c2c2; */
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+
+}
+.nav-container h1{
+    font-family: 'Aldrich', sans-serif;
+    user-select: none;
+}
+.nav-container > ul {
+    display: flex;
+    margin: auto 0;
+    width:70%;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.nav-container > ul > li{
+    padding: 10px 5px;
+    border-bottom: 2px solid white ;
+
+
+}
+/* .nav-container ul li:hover , a{
+    border-bottom: 2px solid #ffe4e4 ;
+} */
+
+/* .nav-container > ul > li:hover{
+    text-decoration: underline;
+    border-right: 2px solid #f8d2d2 ;
+} */
+

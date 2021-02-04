@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Oswald);
+
+.hero-container{
+    width: 100vw;
+    background-color: #ffe4e4 ;
+
+}
+
+.wordCarousel {
+    font-family: "Roboto Condensed", cursive;
+    font-size: 50px;
+    color: #000000;
+    width: 100vw;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 300px;
+    user-select: none;
+
+}
+
+.wordCarousel > div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    width: 400px;
+    padding-top: 10px;
+    margin-top: -10px;
+
+}
+.wordCarousel > div ul{
+    padding-top: 5px;
+}
+.wordCarousel > div li {
+    font-family: 'Aldrich', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    padding: 0 10px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+    width: 100px;
+    /* font-size: 53; */
+}
+
+.flip2 { animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip4 { animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
+@keyframes flip4 {
+    0% { margin-top: -360px; }
+    5% { margin-top: -270px; }
+    25% { margin-top: -270px; }
+    30% { margin-top: -180px; }
+    50% { margin-top: -180px; }
+    55% { margin-top: -90px; }
+    75% { margin-top: -90px; }
+    80% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}
+
